@@ -19,4 +19,4 @@ And the flag comes back: RITSEC{I_am_th3_gr3@t3st_h@XOR_3v@}
 
 <h5>Final Thought</h5>
 This was a really fun challenge. As I am pretty new to CTFs I have not seen a similar challenge before. 
-Thanks to the Autor of the challenge and the CTF organizers.
+Thanks to the Author of the challenge and the CTF organizers.
