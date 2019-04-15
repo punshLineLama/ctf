@@ -15,8 +15,11 @@ I noticed in this line: `(signature,) = privkey.sign(param, None)`,
 that a given string is signed and not the hash of it. 
 
 This is the vulnerability which allows exitential forgery.
-When having s<sub>1</sub> and s<sub>2</sub> you can calculate s<sub>3</sub> without the knowloedge of the private key d.
-s<sub>1</sub> = m<sub>1</sub><sup>d</sup> mod n s<sub>2</sub> = m<sub>2</sub><sup>d</sup> mod n$ s<sub>1</sub>*s<sub>1</sub> = s<sub>1</sub> = (m<sub>1</sub>*m<sub>1</sub>)<sup>d</sup> mod n
+When having:
+`s<sub>1</sub>` and `s<sub>2</sub>` you can calculate `s<sub>3</sub>` without the knowloedge of the private key `d`.
+
+`s<sub>1</sub> = m<sub>1</sub><sup>d</sup> mod n s<sub>2</sub> = m<sub>2</sub><sup>d</sup> mod n` 
+`s<sub>1</sub>*s<sub>1</sub> = s<sub>1</sub> = (m<sub>1</sub>*m<sub>1</sub>)<sup>d</sup> mod n`
 
 The rest of the work was up to my script `exploit.py` returning the flag:
 
