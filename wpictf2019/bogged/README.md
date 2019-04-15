@@ -7,9 +7,8 @@ The Challenge
 This challenge gave 150 points and had 23 solves.
 
 The challenge description said: 
+
 `Two strange men called me last night. They call themselves the Bogdanoff twins. I don't know much about cryptocurrency- can you help them with their scheme?`
-
-
 `nc bogged.wpictf.xyz 31337 (or 31338 or 31339)`
 `made by rm -k`
 `https://soundcloud.com/nanosmusics/one?in=nanosmusics/sets/p-o-r-n-o`
