@@ -1,5 +1,4 @@
 rsa machine
-
 ===============
 
 The Challenge
@@ -16,8 +15,8 @@ I noticed in this line: `(signature,) = privkey.sign(param, None)`,
 that a given string is signed and not the hash of it. 
 
 This is the vulnerability which allows exitential forgery.
-When having $s_1$ and $s_2$ you can calculate $s_3$ without the knowloedge of the private key d.
-$s_1 = m_1^d mod n$ $s_2 = m_2^d mod n$ $s_1*s_2 = s_3 = (m_1*m_2)^d mod n$
+When having s<sub>1</sub> and s<sub>2</sub> you can calculate s<sub>3</sub> without the knowloedge of the private key d.
+s<sub>1</sub> = m<sub>1</sub><sup>d</sup> mod n s<sub>2</sub> = m<sub>2</sub><sup>d</sup> mod n$ s<sub>1</sub>*s<sub>1</sub> = s<sub>1</sub> = (m<sub>1</sub>*m<sub>1</sub>)<sup>d</sup> mod n
 
 The rest of the work was up to my script `exploit.py` returning the flag:
 
