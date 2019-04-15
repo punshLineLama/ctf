@@ -22,7 +22,10 @@ s<sub>1</sub> = m<sub>1</sub><sup>d</sup> mod n
 
 s<sub>2</sub> = m<sub>2</sub><sup>d</sup> mod n
 
-s<sub>1</sub>*s<sub>1</sub> = s<sub>1</sub> = (m<sub>1</sub>*m<sub>1</sub>)<sup>d</sup> mod n
+s<sub>1</sub>*s<sub>1</sub> = s<sub>3</sub> = (m<sub>1</sub>*m<sub>1</sub>)<sup>d</sup> mod n
+
+Now I we need to find m<sub>1</sub> and m<sub>2</sub> such that m<sub>1</sub>*m<sub>2</sub> = `b'getflag'`
+This can be done by simply factorizing the integer representation of the `b'getflag'`.
 
 The rest of the work was up to my script `exploit.py` returning the flag:
 
