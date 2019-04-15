@@ -89,7 +89,8 @@ Action successful!
 Command can be concatenated in an arbitrary way.
 
 The accounts command gives us:
-------------------
+
+---------------
 Command:
 accounts
 
@@ -98,7 +99,8 @@ sminem.1337
 xXwaltonchaingangXx
 john.doe
 not_b0gdan0ff
-------------------
+
+---------------
 
 When taking a look at the `leaked_source.py`.
 We notice that the sha1 hash algorithm is used and that the secret is concatenated with the command to generate the token:
