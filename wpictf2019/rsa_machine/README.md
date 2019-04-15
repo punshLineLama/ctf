@@ -26,8 +26,8 @@ s<sub>1</sub>*s<sub>1</sub> = s<sub>3</sub> = (m<sub>1</sub>*m<sub>1</sub>)<sup>
 
 Now I we need to find m<sub>1</sub> and m<sub>2</sub> such that m<sub>1</sub>*m<sub>2</sub> = `b'getflag'`
 This can be done by simply factorizing the integer representation of the `b'getflag'`.
+Having m<sub>1</sub> and m<sub>2</sub> we can run our `exploit.py` script. 
 
-The rest of the work was up to my script `exploit.py` returning the flag:
 
 `WPI{m411e4b1e_cipher5_4re_d4ngerou5}`
 
