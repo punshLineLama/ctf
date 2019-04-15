@@ -2,7 +2,7 @@ bogged
 ===============
 
 The Challenge
-------------------
+---------------
 
 This challenge gave 150 points and had 23 solves.
 
@@ -15,9 +15,10 @@ https://soundcloud.com/nanosmusics/one?in=nanosmusics/sets/p-o-r-n-o`
 Additionally a python script was given: `leaked_source.py`
 
 When connection via nc we are given the following prompt:
-------------------
 
-OGDANOFF:
+---------------
+
+BOGDANOFF:
 
 Bonjour... 
 We have access to the Binance backdoor, and got you into a compromised teller station.
@@ -46,37 +47,40 @@ Either enter a command or one of the following keywords:
 accounts: List of accounts currently on the system.
 history: A history of prior terminal commands.
 help: A reminder on how to use this terminal.
-------------------
+
+---------------
 
 The History command gives us:
-------------------
+
+---------------
+
 Command:
->>>history
+history
 
 ///// TRANSACTION HISTORY //////////////////////////
 
 Command:
->>>withdraw john.doe
+withdraw john.doe
 Auth token:
->>>b4c967e157fad98060ebbf24135bfdb5a73f14dc
+b4c967e157fad98060ebbf24135bfdb5a73f14dc
 Action successful!
 
 Command:
->>>withdraw john.doe;deposit xXwaltonchaingangXx
+withdraw john.doe;deposit xXwaltonchaingangXx
 Auth token:
->>>455705a6756fb014a4cba2aa0652779008e36878
+455705a6756fb014a4cba2aa0652779008e36878
 Action successful!
 
 Command:
->>>withdraw cryptowojak123;deposit xXwaltonchaingangXx
+withdraw cryptowojak123;deposit xXwaltonchaingangXx
 Auth token:
->>>e429ffbfe7cabd62bda3589576d8717aaf3f663f
+e429ffbfe7cabd62bda3589576d8717aaf3f663f
 Action successful!
 
 Command:
->>>withdraw john.doe
+withdraw john.doe
 Auth token:
->>>b4c967e157fad98060ebbf24135bfdb5a73f14dc
+b4c967e157fad98060ebbf24135bfdb5a73f14dc
 Action successful!
 
 ////////////////////////////////////////////////////
@@ -87,7 +91,7 @@ Command can be concatenated in an arbitrary way.
 The accounts command gives us:
 ------------------
 Command:
->>>accounts
+accounts
 
 cryptowojak123
 sminem.1337
